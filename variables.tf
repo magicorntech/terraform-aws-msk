@@ -1,0 +1,15 @@
+variable "name" {}
+variable "tenant" {}
+variable "environment" {}
+variable "vpc_id" {}
+variable "cidr_block" {}
+variable "subnet_ids" {}
+variable "encryption" {}
+variable "kms_key_id" {}
+variable "additional_ips" {}
+variable "stream_name" {}
+variable "number_of_broker_nodes" {}
+variable "kafka_version" {}
+variable "instance_type" {}
+variable "volume_size" {}
+variable "server_properties" {}
